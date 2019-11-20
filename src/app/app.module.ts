@@ -14,6 +14,7 @@ import { AppComponent } from './app.component';
 import { PostCreateComponent } from './posts/post-creation/post-create.component';
 import { HeaderComponent } from './header/header.component';
 import {PostListComponent} from './posts/post-list/post-list.component'
+// import { PostsService } from './posts/posts.service';
 // import { from } from 'rxjs';
 
 @NgModule({
