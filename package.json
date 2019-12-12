@@ -1,6 +1,7 @@
 {
   "name": "mean-app",
   "version": "0.0.0",
+  "main": "electron/dist/main.js",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -8,7 +9,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "start:server": "nodemon: server.js"
+    "electron": "ng build --base-href ./ && tsc --p electron && electron ."
   },
   "private": true,
   "dependencies": {
