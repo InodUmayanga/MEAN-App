@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  apiUrl: 'http://localhost:3000/api'
+  apiUrl: 'http://touchless-env.6xdy3fapea.eu-central-1.elasticbeanstalk.com/api'
 };
 
 /*
