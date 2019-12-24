@@ -49,6 +49,12 @@ export class PostsService {
         this.posts.push(post);
         this.postsUpdated.next([...this.posts]);
       });
+  }
 
+  deletePost(postId: string) {
+    this.http.delete(BACKEND_URL + '/' + postId)
+      .subscribe(() => {
+        console.log(`post ${postId} deleted`);
+      });
   }
 }
